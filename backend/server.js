@@ -18,7 +18,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: "https://smart-complaint-system-frontend.vercel.app/",
+  origin: "https://smart-complaint-system-frontend-3r806gsgq.vercel.app",
   credentials: true
 }));
 app.use(express.json());
